@@ -45,7 +45,7 @@ const ChatItem = ({content,role}:{content:string,role:"user"|"assistant"}) => {
   }, [messageBlocks]);
 
   useEffect(() => {
-    console.log("Detected language:", language);
+    // console.log("Detected language:", language);
   }, [language]);
 
   return (    role ==="assistant" 
